@@ -27,23 +27,33 @@ class MainViewController: UIViewController {
         let type = "check"
         let stringtime = self.setTime(type: type)
         
-        let speficiedInt = Int(stringtime.specifiedString) ?? .zero
-        let startInt = Int(stringtime.startString) ?? .zero
-        let endInt = Int(stringtime.endString) ?? .zero
+        var speficiedInt = Int(stringtime.specifiedString) ?? .zero
+        var startInt = Int(stringtime.startString) ?? .zero
+        var endInt = Int(stringtime.endString) ?? .zero
+        
+        if speficiedInt == 0 {
+            speficiedInt = 24
+        }
+        
+        if startInt == 0 {
+            startInt = 24
+        }
+        
+        if endInt == 0 {
+            endInt = 24
+        }
+        
         if startInt > endInt {
-            // ① UIAlertControllerクラスのインスタンスを生成
-            let alert = UIAlertController(title: "タイトル", message: "メッセージ", preferredStyle: .alert)
-
-            // ②アクションの追加
+            let alert = UIAlertController(title: "", message: "開始時間が終了時間より前に設定されています。", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-
-            // ③アラートの表示
             self.present(alert, animated: true, completion: nil)
+            
+            if 
             return "指定時間範囲外です。"
         }
         if  startInt..<endInt ~= speficiedInt {
             return "指定時間範囲内です。"
-        } else if startInt == endInt {
+        } else if startInt == endInt && startInt == speficiedInt {
             return "指定時間範囲内です。"
         }
         return "指定時間範囲外です。"
