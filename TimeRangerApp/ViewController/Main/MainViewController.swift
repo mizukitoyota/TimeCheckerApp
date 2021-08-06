@@ -47,8 +47,6 @@ class MainViewController: UIViewController {
             let alert = UIAlertController(title: "", message: "開始時間が終了時間より前に設定されています。", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
-            
-            if 
             return "指定時間範囲外です。"
         }
         if  startInt..<endInt ~= speficiedInt {
