@@ -15,18 +15,10 @@ class ResultTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         // 処理なし
-    }
-    
-    func configure(specify:String, start:String ,end:String ,result:String) {
-        specifyLabel.text  = specify
-        startLabel.text = start
-        endLabel.text  = end
-        resultLabel.text = result
     }
 }

@@ -15,7 +15,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var saveButton: UIButton!
     
-    private let viewModel = MainViewModel()
+    private let viewModel = MainModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -8,12 +8,11 @@
 import UIKit
 
 class ResultViewController: UIViewController, UITableViewDataSource {
-        
-    let cellIdentifier = "ResultTableViewCell"
     
     @IBOutlet weak var resultTableView: UITableView!
     
     let tableCell = ResultTableViewCell()
+    let cellIdentifier = "ResultTableViewCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,30 +27,19 @@ class ResultViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "ResultTableViewCell") as? ResultTableViewCell {
-            
             let userDefaults = UserDefaults.standard
-            let timeArray = userDefaults.array(forKey: "TimeArray")
-            let coc = [indexPath.row]
-//            for num in 0...[indexPath.row].count - 1 {
-                
-                if let arr = UserDefaults.standard.array(forKey: "TimeArray") as? [[String]]{
-                    print(arr[0])
-                    
-                    let lol = arr[indexPath.row] as AnyObject
-                    let lols = lol[0] as AnyObject
-                    cell.specifyLabel.text = lols as? String
-                    let lols1 = lol[1] as AnyObject
-                    cell.startLabel.text = lols1 as? String
-                    let lols2 = lol[2] as AnyObject
-                    cell.endLabel.text = lols2 as? String
-                    let lols3 = lol[3] as AnyObject
-                    cell.resultLabel.text = lols3 as? String
-                    
-                    //tableCell.configure(specify: lols as! String , start: lols1 as! String, end: lols2 as! String, result: lols3 as! String)
-                    
-                }
-                return cell
-           // }
+            if let timeArray = userDefaults.array(forKey: "TimeArray") as? [[String]]{
+                let resultArray = timeArray[indexPath.row] as AnyObject
+                let specifyDate = resultArray[0] as AnyObject
+                cell.specifyLabel.text = specifyDate as? String
+                let startDate = resultArray[1] as AnyObject
+                cell.startLabel.text = startDate as? String
+                let endDate = resultArray[2] as AnyObject
+                cell.endLabel.text = endDate as? String
+                let resultDate = resultArray[3] as AnyObject
+                cell.resultLabel.text = resultDate as? String
+            }
+            return cell
         }
         return UITableViewCell()
     }
