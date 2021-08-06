@@ -30,6 +30,7 @@
                                             </label>
                                             <datePicker contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="LeL-f9-O5p">
                                                 <rect key="frame" x="150" y="59" width="264" height="85"/>
+                                                <locale key="locale" localeIdentifier="ja_JP"/>
                                             </datePicker>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -53,6 +54,7 @@
                                             </label>
                                             <datePicker contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="UWO-M7-OB0">
                                                 <rect key="frame" x="150" y="54" width="264" height="90"/>
+                                                <locale key="locale" localeIdentifier="ja_JP"/>
                                             </datePicker>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -76,6 +78,7 @@
                                             </label>
                                             <datePicker contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="N9p-TP-NPJ">
                                                 <rect key="frame" x="150" y="54" width="264" height="90"/>
+                                                <locale key="locale" localeIdentifier="ja_JP"/>
                                             </datePicker>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -168,9 +171,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="EndTime" destination="N9p-TP-NPJ" id="iuM-cy-Jn0"/>
-                        <outlet property="SpecifiedTime" destination="LeL-f9-O5p" id="5Ct-gn-lAp"/>
-                        <outlet property="StartTime" destination="UWO-M7-OB0" id="o8u-oP-IS2"/>
+                        <outlet property="EndTime" destination="N9p-TP-NPJ" id="B08-dA-bUN"/>
+                        <outlet property="SpecifiedTime" destination="LeL-f9-O5p" id="vdr-6K-g4J"/>
+                        <outlet property="StartTime" destination="UWO-M7-OB0" id="20j-qp-Phf"/>
                         <outlet property="resultLabel" destination="Ihw-Zh-hGQ" id="q4X-dR-rJh"/>
                         <outlet property="saveButton" destination="uGL-Sh-iJa" id="6nC-SQ-c4K"/>
                     </connections>

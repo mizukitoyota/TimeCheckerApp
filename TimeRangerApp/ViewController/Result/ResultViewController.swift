@@ -59,5 +59,6 @@ class ResultViewController: UIViewController, UITableViewDataSource {
     @IBAction func deleteDate(_ sender: Any) {
         let userDefaults = UserDefaults.standard
         userDefaults.removeObject(forKey: "TimeArray")
+        self.resultTableView.reloadData()
     }
 }
