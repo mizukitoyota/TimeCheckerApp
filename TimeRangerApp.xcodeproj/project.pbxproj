@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E611F8C26B7D49200CE7989 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E611F8B26B7D49200CE7989 /* MainViewModel.swift */; };
+		0E611F9026B7E4BC00CE7989 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E611F8F26B7E4BC00CE7989 /* Result.storyboard */; };
+		0E611F9226B7E4EC00CE7989 /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E611F9126B7E4EC00CE7989 /* ResultViewModel.swift */; };
+		0E611F9426B7E52600CE7989 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E611F9326B7E52600CE7989 /* ResultViewController.swift */; };
+		0E685DAF26B781A9000C51EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E685DAE26B781A9000C51EB /* AppDelegate.swift */; };
+		0E685DB126B781A9000C51EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E685DB026B781A9000C51EB /* SceneDelegate.swift */; };
+		0E685DB326B781A9000C51EB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E685DB226B781A9000C51EB /* MainViewController.swift */; };
+		0E685DB626B781A9000C51EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E685DB426B781A9000C51EB /* Main.storyboard */; };
+		0E685DB826B781AD000C51EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E685DB726B781AD000C51EB /* Assets.xcassets */; };
+		0E685DBB26B781AD000C51EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E685DB926B781AD000C51EB /* LaunchScreen.storyboard */; };
+		0E685DC626B781AE000C51EB /* TimeRangerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E685DC526B781AE000C51EB /* TimeRangerAppTests.swift */; };
+		0E685DD126B781AE000C51EB /* TimeRangerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E685DD026B781AE000C51EB /* TimeRangerAppUITests.swift */; };
+		0E87952026BA50C90020DF93 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E87951E26BA50C90020DF93 /* ResultTableViewCell.swift */; };
+		0E87952126BA50C90020DF93 /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E87951F26BA50C90020DF93 /* ResultTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E685DC226B781AE000C51EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E685DA326B781A9000C51EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E685DAA26B781A9000C51EB;
+			remoteInfo = TimeRangerApp;
+		};
+		0E685DCD26B781AE000C51EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E685DA326B781A9000C51EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E685DAA26B781A9000C51EB;
+			remoteInfo = TimeRangerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E611F8B26B7D49200CE7989 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0E611F8F26B7E4BC00CE7989 /* Result.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
+		0E611F9126B7E4EC00CE7989 /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		0E611F9326B7E52600CE7989 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0E685DAB26B781A9000C51EB /* TimeRangerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeRangerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E685DAE26B781A9000C51EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E685DB026B781A9000C51EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0E685DB226B781A9000C51EB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0E685DB526B781A9000C51EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E685DB726B781AD000C51EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E685DBA26B781AD000C51EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E685DBC26B781AD000C51EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E685DC126B781AE000C51EB /* TimeRangerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeRangerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E685DC526B781AE000C51EB /* TimeRangerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRangerAppTests.swift; sourceTree = "<group>"; };
+		0E685DC726B781AE000C51EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E685DCC26B781AE000C51EB /* TimeRangerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeRangerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E685DD026B781AE000C51EB /* TimeRangerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRangerAppUITests.swift; sourceTree = "<group>"; };
+		0E685DD226B781AE000C51EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E87951E26BA50C90020DF93 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		0E87951F26BA50C90020DF93 /* ResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E685DA826B781A9000C51EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E685DBE26B781AE000C51EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E685DC926B781AE000C51EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E611F8526B7D3A000CE7989 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E611F8726B7D41700CE7989 /* Main */,
+				0E611F8826B7D42200CE7989 /* Result */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E611F8626B7D3B500CE7989 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E611F8926B7D44A00CE7989 /* Main */,
+				0E611F8A26B7D45500CE7989 /* Result */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E611F8726B7D41700CE7989 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E685DB226B781A9000C51EB /* MainViewController.swift */,
+				0E685DB426B781A9000C51EB /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0E611F8826B7D42200CE7989 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				0E611F9326B7E52600CE7989 /* ResultViewController.swift */,
+				0E611F8F26B7E4BC00CE7989 /* Result.storyboard */,
+				0E87951E26BA50C90020DF93 /* ResultTableViewCell.swift */,
+				0E87951F26BA50C90020DF93 /* ResultTableViewCell.xib */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		0E611F8926B7D44A00CE7989 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E611F8B26B7D49200CE7989 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0E611F8A26B7D45500CE7989 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				0E611F9126B7E4EC00CE7989 /* ResultViewModel.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		0E685DA226B781A9000C51EB = {
+			isa = PBXGroup;
+			children = (
+				0E685DAD26B781A9000C51EB /* TimeRangerApp */,
+				0E685DC426B781AE000C51EB /* TimeRangerAppTests */,
+				0E685DCF26B781AE000C51EB /* TimeRangerAppUITests */,
+				0E685DAC26B781A9000C51EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E685DAC26B781A9000C51EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E685DAB26B781A9000C51EB /* TimeRangerApp.app */,
+				0E685DC126B781AE000C51EB /* TimeRangerAppTests.xctest */,
+				0E685DCC26B781AE000C51EB /* TimeRangerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E685DAD26B781A9000C51EB /* TimeRangerApp */ = {
+			isa = PBXGroup;
+			children = (
+				0E685DAE26B781A9000C51EB /* AppDelegate.swift */,
+				0E685DB026B781A9000C51EB /* SceneDelegate.swift */,
+				0E685DB926B781AD000C51EB /* LaunchScreen.storyboard */,
+				0E611F8526B7D3A000CE7989 /* ViewController */,
+				0E611F8626B7D3B500CE7989 /* ViewModel */,
+				0E685DB726B781AD000C51EB /* Assets.xcassets */,
+				0E685DBC26B781AD000C51EB /* Info.plist */,
+			);
+			path = TimeRangerApp;
+			sourceTree = "<group>";
+		};
+		0E685DC426B781AE000C51EB /* TimeRangerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E685DC526B781AE000C51EB /* TimeRangerAppTests.swift */,
+				0E685DC726B781AE000C51EB /* Info.plist */,
+			);
+			path = TimeRangerAppTests;
+			sourceTree = "<group>";
+		};
+		0E685DCF26B781AE000C51EB /* TimeRangerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E685DD026B781AE000C51EB /* TimeRangerAppUITests.swift */,
+				0E685DD226B781AE000C51EB /* Info.plist */,
+			);
+			path = TimeRangerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E685DAA26B781A9000C51EB /* TimeRangerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E685DD526B781AE000C51EB /* Build configuration list for PBXNativeTarget "TimeRangerApp" */;
+			buildPhases = (
+				0E685DA726B781A9000C51EB /* Sources */,
+				0E685DA826B781A9000C51EB /* Frameworks */,
+				0E685DA926B781A9000C51EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeRangerApp;
+			productName = TimeRangerApp;
+			productReference = 0E685DAB26B781A9000C51EB /* TimeRangerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E685DC026B781AE000C51EB /* TimeRangerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E685DD826B781AE000C51EB /* Build configuration list for PBXNativeTarget "TimeRangerAppTests" */;
+			buildPhases = (
+				0E685DBD26B781AE000C51EB /* Sources */,
+				0E685DBE26B781AE000C51EB /* Frameworks */,
+				0E685DBF26B781AE000C51EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E685DC326B781AE000C51EB /* PBXTargetDependency */,
+			);
+			name = TimeRangerAppTests;
+			productName = TimeRangerAppTests;
+			productReference = 0E685DC126B781AE000C51EB /* TimeRangerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E685DCB26B781AE000C51EB /* TimeRangerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E685DDB26B781AE000C51EB /* Build configuration list for PBXNativeTarget "TimeRangerAppUITests" */;
+			buildPhases = (
+				0E685DC826B781AE000C51EB /* Sources */,
+				0E685DC926B781AE000C51EB /* Frameworks */,
+				0E685DCA26B781AE000C51EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E685DCE26B781AE000C51EB /* PBXTargetDependency */,
+			);
+			name = TimeRangerAppUITests;
+			productName = TimeRangerAppUITests;
+			productReference = 0E685DCC26B781AE000C51EB /* TimeRangerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E685DA326B781A9000C51EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0E685DAA26B781A9000C51EB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					0E685DC026B781AE000C51EB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0E685DAA26B781A9000C51EB;
+					};
+					0E685DCB26B781AE000C51EB = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0E685DAA26B781A9000C51EB;
+					};
+				};
+			};
+			buildConfigurationList = 0E685DA626B781A9000C51EB /* Build configuration list for PBXProject "TimeRangerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E685DA226B781A9000C51EB;
+			productRefGroup = 0E685DAC26B781A9000C51EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E685DAA26B781A9000C51EB /* TimeRangerApp */,
+				0E685DC026B781AE000C51EB /* TimeRangerAppTests */,
+				0E685DCB26B781AE000C51EB /* TimeRangerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E685DA926B781A9000C51EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87952126BA50C90020DF93 /* ResultTableViewCell.xib in Resources */,
+				0E685DBB26B781AD000C51EB /* LaunchScreen.storyboard in Resources */,
+				0E685DB826B781AD000C51EB /* Assets.xcassets in Resources */,
+				0E685DB626B781A9000C51EB /* Main.storyboard in Resources */,
+				0E611F9026B7E4BC00CE7989 /* Result.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E685DBF26B781AE000C51EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E685DCA26B781AE000C51EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E685DA726B781A9000C51EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E611F9426B7E52600CE7989 /* ResultViewController.swift in Sources */,
+				0E685DB326B781A9000C51EB /* MainViewController.swift in Sources */,
+				0E87952026BA50C90020DF93 /* ResultTableViewCell.swift in Sources */,
+				0E611F9226B7E4EC00CE7989 /* ResultViewModel.swift in Sources */,
+				0E685DAF26B781A9000C51EB /* AppDelegate.swift in Sources */,
+				0E685DB126B781A9000C51EB /* SceneDelegate.swift in Sources */,
+				0E611F8C26B7D49200CE7989 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E685DBD26B781AE000C51EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E685DC626B781AE000C51EB /* TimeRangerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E685DC826B781AE000C51EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E685DD126B781AE000C51EB /* TimeRangerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E685DC326B781AE000C51EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E685DAA26B781A9000C51EB /* TimeRangerApp */;
+			targetProxy = 0E685DC226B781AE000C51EB /* PBXContainerItemProxy */;
+		};
+		0E685DCE26B781AE000C51EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E685DAA26B781A9000C51EB /* TimeRangerApp */;
+			targetProxy = 0E685DCD26B781AE000C51EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E685DB426B781A9000C51EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E685DB526B781A9000C51EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E685DB926B781AD000C51EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E685DBA26B781AD000C51EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E685DD326B781AE000C51EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E685DD426B781AE000C51EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E685DD626B781AE000C51EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimeRangerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TimeRangerApp.TimeRangerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E685DD726B781AE000C51EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimeRangerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TimeRangerApp.TimeRangerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0E685DD926B781AE000C51EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimeRangerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TimeRangerApp.TimeRangerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeRangerApp.app/TimeRangerApp";
+			};
+			name = Debug;
+		};
+		0E685DDA26B781AE000C51EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimeRangerAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TimeRangerApp.TimeRangerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeRangerApp.app/TimeRangerApp";
+			};
+			name = Release;
+		};
+		0E685DDC26B781AE000C51EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimeRangerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TimeRangerApp.TimeRangerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeRangerApp;
+			};
+			name = Debug;
+		};
+		0E685DDD26B781AE000C51EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TimeRangerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TimeRangerApp.TimeRangerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeRangerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E685DA626B781A9000C51EB /* Build configuration list for PBXProject "TimeRangerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E685DD326B781AE000C51EB /* Debug */,
+				0E685DD426B781AE000C51EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E685DD526B781AE000C51EB /* Build configuration list for PBXNativeTarget "TimeRangerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E685DD626B781AE000C51EB /* Debug */,
+				0E685DD726B781AE000C51EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E685DD826B781AE000C51EB /* Build configuration list for PBXNativeTarget "TimeRangerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E685DD926B781AE000C51EB /* Debug */,
+				0E685DDA26B781AE000C51EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E685DDB26B781AE000C51EB /* Build configuration list for PBXNativeTarget "TimeRangerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E685DDC26B781AE000C51EB /* Debug */,
+				0E685DDD26B781AE000C51EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E685DA326B781A9000C51EB /* Project object */;
+}
